@@ -9,6 +9,7 @@ module.exports = defineConfig({
       'API_USER_PASSWORD': 'thedantonio1',
       'USER_AGENT': 'Cypress'
     },
-  specPattern: 'cypress/e2e/integration/*.js'
+  specPattern: 'cypress/e2e/integration/*.js',
+  supportFile: false
   },
 });
